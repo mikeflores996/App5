@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Start">
+    <ContentPage.Content>
+
+        <Grid>
+            <Image Source="fondo.jpg" Aspect="AspectFill" />
+
+            <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" ></RowDefinition>
+                <RowDefinition Height="*" ></RowDefinition>
+                <RowDefinition Height="Auto" ></RowDefinition>
+            </Grid.RowDefinitions>
+            
+            <Image Grid.Row="0" Source="Priv.JPG" WidthRequest="100" HeightRequest="100" Margin="0,100,0,0" />
+                
+            <StackLayout Grid.Row="1" Padding="80,50" >
+                <Entry Placeholder="Correo electrónico" PlaceholderColor="White" />
+                <Entry Placeholder="Contraseña" PlaceholderColor="White" IsPassword="True"/>
+                <Button Text="Iniciar sesión" BackgroundColor="White" />
+
+                
+                
+                
+                
+                
+                
+                    <StackLayout Orientation="Horizontal"   >
+                        <Label Text="¿Olvidaste tu contraseña?" TextColor="White" FontSize="13" FontAttributes="Bold"/>
+                        <Label Text="Regístrate" HorizontalOptions="EndAndExpand" FontSize="13" FontAttributes="Bold" TextColor="White"/>
+                    </StackLayout>
+                
+            </StackLayout>
+            </Grid>
+        </Grid>
+
+    </ContentPage.Content>
+</ContentPage>
