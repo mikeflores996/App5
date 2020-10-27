@@ -1,0 +1,17 @@
+C:\App5\App5\App5\bin\Debug\netstandard2.0\PrivBus.deps.json
+C:\App5\App5\App5\bin\Debug\netstandard2.0\PrivBus.dll
+C:\App5\App5\App5\obj\Debug\netstandard2.0\PrivBus.csprojAssemblyReference.cache
+C:\App5\App5\App5\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\App5\App5\App5\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\App5\App5\App5\obj\Debug\netstandard2.0\Views\Login.xaml.g.cs
+C:\App5\App5\App5\obj\Debug\netstandard2.0\Views\Register.xaml.g.cs
+C:\App5\App5\App5\obj\Debug\netstandard2.0\Views\Start.xaml.g.cs
+C:\App5\App5\App5\obj\Debug\netstandard2.0\PrivBus.AssemblyInfoInputs.cache
+C:\App5\App5\App5\obj\Debug\netstandard2.0\PrivBus.AssemblyInfo.cs
+C:\App5\App5\App5\bin\Debug\netstandard2.0\ref\PrivBus.dll
+C:\App5\App5\App5\bin\Debug\netstandard2.0\PrivBus.pdb
+C:\App5\App5\App5\obj\Debug\netstandard2.0\PrivBus.csproj.CoreCompileInputs.cache
+C:\App5\App5\App5\obj\Debug\netstandard2.0\XamlC.stamp
+C:\App5\App5\App5\obj\Debug\netstandard2.0\PrivBus.dll
+C:\App5\App5\App5\obj\Debug\netstandard2.0\ref\PrivBus.dll
+C:\App5\App5\App5\obj\Debug\netstandard2.0\PrivBus.pdb

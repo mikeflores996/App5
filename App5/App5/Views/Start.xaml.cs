@@ -1,4 +1,5 @@
-﻿using System;
+﻿using App5.NewFolder3;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,16 @@ namespace App5.Views
         public Start()
         {
             InitializeComponent();
+        }
+
+        async void Handle_Clicked(object sender, System.EventArgs e)
+        {
+           await Navigation.PushModalAsync(new Login());
+        }
+
+       async private void Button_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new Register());
         }
     }
 }

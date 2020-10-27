@@ -1,4 +1,5 @@
-﻿using System;
+﻿using App5.Views;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,5 +17,22 @@ namespace App5.NewFolder3
         {
             InitializeComponent();
         }
+
+        async void Handle_Clicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PopToRootAsync();
+        }
+
+        async private void Button_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new Register());
+        }
+
+        protected override bool OnBackButtonPressed()
+        {
+            Navigation.PushModalAsync(new Start());
+            return true;
+        }
+
     }
 }
