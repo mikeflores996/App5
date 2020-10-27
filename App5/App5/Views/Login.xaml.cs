@@ -1,5 +1,6 @@
 ﻿using App5.Views;
 using HelloWorld;
+using PrivBus.Clases;
 using PrivBus.Views;
 using SQLite;
 using System;
@@ -40,9 +41,15 @@ namespace App5.NewFolder3
             return true;
         }
 
-        private void loginTry(object sender, EventArgs e)
+        protected override async void OnAppearing()
         {
-            var myquery = _connection.Table<User>().Where(u => u.UserName.Equals(userEntry.Text) && u.Password.Equals(passwordEntry.Text)).FirstOrDefaultAsync();
+            await _connection.CreateTableAsync<User>();
+            base.OnAppearing();
+        }
+
+         async private void loginTry(object sender, EventArgs e)
+        {
+            var myquery = await _connection.Table<User>().Where(u => u.UserName.Equals(userEntry.Text) && u.Password.Equals(passwordEntry.Text)).FirstOrDefaultAsync();
 
             if (myquery!=null)
             {

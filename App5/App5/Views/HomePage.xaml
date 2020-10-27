@@ -4,9 +4,19 @@
              x:Class="PrivBus.Views.HomePage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Login Correcto!!"
+            <StackLayout>
+                <Label Text="Login Correcto!!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+            </StackLayout>
+            <ListView x:Name="usersListView">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding UserName}"></TextCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </StackLayout>
+       
     </ContentPage.Content>
 </ContentPage>
