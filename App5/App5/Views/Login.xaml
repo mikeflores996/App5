@@ -53,8 +53,12 @@
                     Padding="0,50,0,50" 
                     HorizontalOptions="EndAndExpand"
                 >
-                    <Entry Placeholder="Usuario" />
-                    <Entry Placeholder="Contraseña"  IsPassword="True"/>
+                    <Entry
+                        x:Name="userEntry"
+                        Placeholder="Usuario" />
+                    <Entry
+                        x:Name="passwordEntry"
+                        Placeholder="Contraseña"  IsPassword="True"/>
 
                 </StackLayout>
               
@@ -65,8 +69,17 @@
                         VerticalOptions="End"
                         Margin="0, 0, 0, 10"
                     >
-                <Button Text="Iniciar sesión" BackgroundColor="Transparent" TextColor="White" BorderColor="Gray"/>
-                <Button Text="¿Olvidaste tu contraseña?" BackgroundColor="Transparent" TextColor="Cyan" FontSize="13" FontAttributes="Bold"/>
+                <Button 
+                    Clicked="loginTry"
+                    Text="Iniciar sesión" 
+                    BackgroundColor="Transparent" 
+                    TextColor="White" 
+                    BorderColor="Gray"/>
+                <Button 
+                    Text="¿Olvidaste tu contraseña?"
+                    BackgroundColor="Transparent" 
+                    TextColor="Cyan" FontSize="13"
+                    FontAttributes="Bold"/>
             </StackLayout>
         </Grid>
 

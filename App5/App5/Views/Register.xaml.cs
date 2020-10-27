@@ -41,12 +41,30 @@ namespace App5.NewFolder3
                 Names = nameEntry.Text,
                 Email = emailEntry.Text,
                 UserName = userNameEntry.Text,
+                Password = passwordEntry.Text,
                 EmpNumber = empNumberEntry.Text,
                 DOB = DOBEntry.Date,
                 DOC = DateTime.Now
             };
 
+          
             await _connection.InsertAsync(user);
+
+            Device.BeginInvokeOnMainThread(async () =>
+            {
+                var result = await this.DisplayAlert("Felicidades!",
+                    "Usuario registrado con éxito", "Aceptar", "Regresar");
+
+                if (result)
+                    await Navigation.PushModalAsync(new Login());
+                else
+                {
+                    await Navigation.PushModalAsync(new Register());
+                }
+
+            });
+
+            
         }
 
         async void Handle_Clicked(object sender, System.EventArgs e)

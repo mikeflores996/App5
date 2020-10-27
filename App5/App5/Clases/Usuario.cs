@@ -18,6 +18,7 @@ namespace PrivBus.Clases
             public String Email { get; set; }
             [MaxLength(150), NotNull]
             public String UserName { get; set; }
+            public string Password { get; set; }
             public String EmpNumber { get; set; }
             [NotNull]
             public DateTime DOB { get; set; }

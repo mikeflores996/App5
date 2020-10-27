@@ -15,3 +15,4 @@ C:\App5\App5\App5\obj\Debug\netstandard2.0\XamlC.stamp
 C:\App5\App5\App5\obj\Debug\netstandard2.0\PrivBus.dll
 C:\App5\App5\App5\obj\Debug\netstandard2.0\ref\PrivBus.dll
 C:\App5\App5\App5\obj\Debug\netstandard2.0\PrivBus.pdb
+C:\App5\App5\App5\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
