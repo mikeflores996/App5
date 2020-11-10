@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\App5\\App5\\App5.Android\\PrivBus.Android.csproj": {}
+    "C:\\Users\\TECHGC\\Source\\Repos\\mikeflores996\\PrivBus\\App5\\App5.Android\\PrivBus.Android.csproj": {}
   },
   "projects": {
-    "C:\\App5\\App5\\App5.Android\\PrivBus.Android.csproj": {
+    "C:\\Users\\TECHGC\\Source\\Repos\\mikeflores996\\PrivBus\\App5\\App5.Android\\PrivBus.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\App5\\App5\\App5.Android\\PrivBus.Android.csproj",
+        "projectUniqueName": "C:\\Users\\TECHGC\\Source\\Repos\\mikeflores996\\PrivBus\\App5\\App5.Android\\PrivBus.Android.csproj",
         "projectName": "PrivBus.Android",
-        "projectPath": "C:\\App5\\App5\\App5.Android\\PrivBus.Android.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\App5\\App5\\App5.Android\\obj\\",
+        "projectPath": "C:\\Users\\TECHGC\\Source\\Repos\\mikeflores996\\PrivBus\\App5\\App5.Android\\PrivBus.Android.csproj",
+        "packagesPath": "C:\\Users\\TECHGC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TECHGC\\Source\\Repos\\mikeflores996\\PrivBus\\App5\\App5.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\TECHGC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\App5\\App5\\App5\\PrivBus.csproj": {
-                "projectPath": "C:\\App5\\App5\\App5\\PrivBus.csproj"
+              "C:\\Users\\TECHGC\\Source\\Repos\\mikeflores996\\PrivBus\\App5\\App5\\PrivBus.csproj": {
+                "projectPath": "C:\\Users\\TECHGC\\Source\\Repos\\mikeflores996\\PrivBus\\App5\\App5\\PrivBus.csproj"
               }
             }
           }
@@ -58,21 +58,20 @@
         }
       }
     },
-    "C:\\App5\\App5\\App5\\PrivBus.csproj": {
+    "C:\\Users\\TECHGC\\Source\\Repos\\mikeflores996\\PrivBus\\App5\\App5\\PrivBus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\App5\\App5\\App5\\PrivBus.csproj",
+        "projectUniqueName": "C:\\Users\\TECHGC\\Source\\Repos\\mikeflores996\\PrivBus\\App5\\App5\\PrivBus.csproj",
         "projectName": "PrivBus",
-        "projectPath": "C:\\App5\\App5\\App5\\PrivBus.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\App5\\App5\\App5\\obj\\",
+        "projectPath": "C:\\Users\\TECHGC\\Source\\Repos\\mikeflores996\\PrivBus\\App5\\App5\\PrivBus.csproj",
+        "packagesPath": "C:\\Users\\TECHGC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TECHGC\\Source\\Repos\\mikeflores996\\PrivBus\\App5\\App5\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\TECHGC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

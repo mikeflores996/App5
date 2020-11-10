@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("App5.MainPage.xaml", "MainPage.xaml", typeof(global::App5.MainPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("PrivBus.MainPage.xaml", "MainPage.xaml", typeof(global::App5.MainPage))]
 
 namespace App5 {
     
