@@ -40,3 +40,6 @@ Xamarin.Essentials
 Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 SQLitePCLRaw.lib.e_sqlite3.android
+Plugin.CurrentActivity
+Plugin.Geolocator
+Plugin.Permissions

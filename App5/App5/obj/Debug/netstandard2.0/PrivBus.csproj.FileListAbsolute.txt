@@ -10,9 +10,10 @@ C:\App5\App5\App5\obj\Debug\netstandard2.0\PrivBus.AssemblyInfoInputs.cache
 C:\App5\App5\App5\obj\Debug\netstandard2.0\PrivBus.AssemblyInfo.cs
 C:\App5\App5\App5\bin\Debug\netstandard2.0\ref\PrivBus.dll
 C:\App5\App5\App5\bin\Debug\netstandard2.0\PrivBus.pdb
-C:\App5\App5\App5\obj\Debug\netstandard2.0\PrivBus.csproj.CoreCompileInputs.cache
-C:\App5\App5\App5\obj\Debug\netstandard2.0\XamlC.stamp
 C:\App5\App5\App5\obj\Debug\netstandard2.0\PrivBus.dll
 C:\App5\App5\App5\obj\Debug\netstandard2.0\ref\PrivBus.dll
 C:\App5\App5\App5\obj\Debug\netstandard2.0\PrivBus.pdb
 C:\App5\App5\App5\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
+C:\App5\App5\App5\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\App5\App5\App5\obj\Debug\netstandard2.0\Views\Detail.xaml.g.cs
+C:\App5\App5\App5\obj\Debug\netstandard2.0\Views\Emergencia.xaml.g.cs
